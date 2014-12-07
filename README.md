@@ -5,14 +5,16 @@ A talkative Clojure library for embedding the Olark chat widget.
 ### Install
 ----------
 Add the following entry to the `:dependencies` vector of your `project.clj` file:
+
 [![clojars version](https://clojars.org/blaber/latest-version.svg?raw=true)]
 (https://clojars.org/blaber)
 
 ### Enough talk! Show me some code!!1
 ----------
 Olark.com says:
-> Copy & paste this code above the last </body> tag on your site. Need Help?
+> Copy & paste this code above the last `</body>` tag on your site. Need Help?
 For all you speed-demons out there, this code is already fully asynchronous and will NOT hurt the load time for your page.
+
 ```clojure
 (ns app.some-view
   (:require [hiccup.page :refer [html5]]
